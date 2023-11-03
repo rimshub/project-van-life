@@ -7,7 +7,9 @@ A simple app to help you find perfect van for your perfect road tip. See live ve
 - React
 - React Router 6
 - CSS
+- React Icons
 - MirageJS
+- Vercel
 
 NOTES:
 - SPA - Single Page Application - all the content is rendered on the client side (browser)

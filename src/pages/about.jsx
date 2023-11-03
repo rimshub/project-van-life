@@ -2,7 +2,7 @@ import React from 'react'
 import bgImg from '../images/about-hero.png'
 import { Link } from 'react-router-dom'
 
-export default function about() {
+export default function About() {
   return (
     <div className="about-page-container">
         <img src={bgImg} alt="" className="about-hero-image" />
