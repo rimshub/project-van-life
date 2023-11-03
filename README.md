@@ -5,7 +5,8 @@ A simple app to help you find perfect van for your perfect road tip. See live ve
 ## Built with
 
 - React
-- React Router 6
+- React Router
+- Nested Routing, Shared Layout, Relative Paths
 - CSS
 - React Icons
 - MirageJS

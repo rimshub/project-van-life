@@ -1,14 +1,23 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { SiRevanced } from 'react-icons/si'
 export default function navbar() {
   return (
-    <section id='navbar'>
+    <header id='navbar'>
         <Link className="site-logo" to="/"><SiRevanced size={19}/>anLife</Link>
         <nav>
-            <Link to="/about">About</Link>
-            <Link to="/vans">Vans</Link>
+          <NavLink to="/host" className={({isActive}) => isActive ? "active-link" : null}>
+            Host
+          </NavLink>
+          <NavLink to="/about" className={({isActive}) => isActive ? "active-link" : null}>
+            About
+          </NavLink>
+          <NavLink to="/vans"
+            className={({isActive}) => isActive ? "active-link" : null}>
+              Vans
+          </NavLink>
+          
         </nav>
-    </section>
+    </header>
   )
 }
