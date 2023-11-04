@@ -1,9 +1,11 @@
 import React, { useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, Link, useLocation } from 'react-router-dom'
 import { useState } from 'react'
 
 export default function VanDetail() {
     const [van, setVan] = useState(null)
+    const location = useLocation()
+    console.log(location)
     const { id } = useParams()
 
     useEffect(() => {
@@ -11,8 +13,18 @@ export default function VanDetail() {
             .then(res => res.json())
             .then(data => setVan(data.vans))
     }, [id]) // rerun this effect when the id changes
+
+    const search = location.state?.searchHistory || ""
+    const type = location.state?.type || "all"
+
   return (
     <div className="van-detail-container">
+            <Link
+                to={`..${search}`}
+                relative="path"
+                className="back-button"
+            >&larr; <span>Back to {type} vans</span></Link>
+
             {van ? (
                 <div className="van-detail">
                     <img alt="vanimage" src={van.imageUrl} />
