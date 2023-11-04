@@ -52,7 +52,7 @@ export default function Login() {
                 <input
                     name="email"
                     onChange={handleChange}
-                    type="email"
+                    type="text"
                     placeholder="Email address"
                     value={loginFormData.email}
                 />
