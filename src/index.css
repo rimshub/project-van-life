@@ -4,7 +4,7 @@
 
 html,
 body {
-  margin: 0;
+  margin: 0 20px 0 20px;
   padding: 0;
   background-color: #fff7ed;
   font-family: "Inter", sans-serif;
@@ -89,8 +89,8 @@ main {
 }
 
 footer {
-  background-color: #161616;
-  color: #aaaaaa;
+  /* background-color: #161616; */
+  color: #726c6c;
   height: 74px;
   display: flex;
   flex-shrink: 0;
@@ -98,6 +98,10 @@ footer {
   align-items: center;
   margin-top: auto;
   font-weight: 500;
+}
+
+footer a {
+  color: #4a4646;
 }
 
 .link-button {
@@ -136,7 +140,7 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 350px;
+  min-height: 400px;
   color: white;
   padding: 45px 23px;
 }
@@ -157,7 +161,7 @@ footer {
   text-decoration: none;
   background-color: #ff8c38;
   border: none;
-  width: 100%;
+  width: 200px;
   margin-top: 27px;
   padding-block: 0.75rem;
   color: white;
@@ -218,7 +222,8 @@ footer {
 
 .van-list-filter-buttons {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
+  gap: 15px;
 }
 
 .van-list-filter-buttons > a {
@@ -512,6 +517,16 @@ i[class*="van-type-"] {
   min-height: 450px;
 }
 
+.login-container h1{
+  font-size: medium;
+  margin: 0;
+  padding: 0;
+}
+.login-container p{
+  font-size: small;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
 .login-form {
   display: flex;
   flex-direction: column;
@@ -548,6 +563,7 @@ i[class*="van-type-"] {
   height: 55px;
   margin-top: 22px;
   color: white;
+  font-weight: bold;
   font-family: "Inter", sans-serif;
   cursor: pointer;
 }
@@ -684,14 +700,14 @@ img.graph {
   border-radius: 6px;
 }
 .host-income .transaction > h3 {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 600;
   margin: 0;
 }
 
 .host-income .transaction > p {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   color: #4d4d4d;
 }
 
