@@ -7,6 +7,7 @@ export default function Footer() {
                 padding: "10px",
             }
         
-        } href="https://rimshadev-portfolio.vercel.app/"> @Rimsha</a></footer>
+        } href="https://rimshadev-portfolio.vercel.app/"> @Rimsha</a>
+        </footer>
     )
 }

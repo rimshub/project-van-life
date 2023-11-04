@@ -4,12 +4,12 @@ import Footer from './Footer'
 import Navbar from './navbar'
 export default function HeaderLayout() {
   return (
-    <>
+    <div className='header-layout-container'>
         <Navbar />
         <main>
             <Outlet />
         </main>
         <Footer />
-    </>
+    </div>
   )
 }

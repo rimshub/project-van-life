@@ -6,7 +6,7 @@ import avatar from '../images/avatar-icon.png'
 export default function navbar() {
   return (
     <header id='navbar'>
-        <Link className="site-logo" to="/"><SiRevanced size={19}/>anLife</Link>
+        <Link className="site-logo" to="/"><SiRevanced size={19}/></Link>
         <nav>
           <NavLink to="/host" className={({isActive}) => isActive ? "active-link" : null}>
             Host

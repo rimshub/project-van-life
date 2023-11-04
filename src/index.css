@@ -77,8 +77,15 @@ nav {
   display: flex;
 }
 
+.header-layout-container {
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh
+}
+
 main {
   margin-bottom: 84px;
+  flex: 1;
 }
 
 footer {
