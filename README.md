@@ -10,6 +10,7 @@ A simple app to help you find perfect van for your perfect road tip. See live ve
 - Outlet, useContextOutlet
 - Search Params / Query parameters
 - useLocation (Its a hook that returns the location object that represents the current URL. You can think about it like a useState that returns a new location whenever the URL changes.)
+- Protected Routes - FDCP 
 - CSS
 - React Icons
 - MirageJS

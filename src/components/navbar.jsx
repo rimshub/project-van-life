@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { SiRevanced } from 'react-icons/si'
+import avatar from '../images/avatar-icon.png'
+
 export default function navbar() {
   return (
     <header id='navbar'>
@@ -15,7 +17,11 @@ export default function navbar() {
           <NavLink to="/vans"
             className={({isActive}) => isActive ? "active-link" : null}>
               Vans
-          </NavLink>
+          </NavLink>  
+          
+          <Link to="login" className="login-link">
+            <img src={avatar} className="login-icon"/>
+          </Link>
           
         </nav>
     </header>
