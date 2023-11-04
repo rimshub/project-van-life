@@ -42,7 +42,7 @@ export default function Login() {
                 location.state?.message &&
                     <h3 className="login-error">{location.state.message}</h3>
             }
-            <h1>Sign in to your account</h1>
+            <h1>Sign in to your account (Email: 123, Password: 123)</h1>
             {
                 error?.message &&
                     <h3 className="login-error">{error.message}</h3>

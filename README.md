@@ -29,4 +29,6 @@ It's SPA (Single Page Application), all the content is rendered on the client si
 - miragejs for mock API
 
 NOTE:
-- Host pages should be accessed after login but for the sake of this project, I have made it public.
+- Host pages should be accessed after login. For the sake of simplicity use:
+    Email: 123
+    Password: 123
