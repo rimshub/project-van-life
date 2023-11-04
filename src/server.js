@@ -21,7 +21,7 @@ createServer({
     routes() {
         this.namespace = "api"
         this.logging = false
-        // this.timing = 2000  // => mock a 2 second delay in server response
+        // this.passthrough("https://firestore.googleapis.com/**") // because miragejs doesn't allow POST requests to external APIs, so we need to whitelist firestore for this to work
 
         this.get("/vans", (schema, request) => {
             // return new Response(400, {}, {error: "Error fetching data"})
