@@ -2,6 +2,8 @@
 
 A simple app to help you find perfect van for your perfect road tip. See live version [here](https://project-van-life.vercel.app/).
 
+It's SPA (Single Page Application), all the content is rendered on the client side (browser).
+
 ## Built with
 
 - React
@@ -16,5 +18,10 @@ A simple app to help you find perfect van for your perfect road tip. See live ve
 - MirageJS
 - Vercel
 
-NOTES:
-- SPA - Single Page Application - all the content is rendered on the client side (browser).
+## Features
+
+- Responsive design
+- Active nav link styling
+- Filter by van type 
+NOTE:
+- 

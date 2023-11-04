@@ -15,6 +15,12 @@ a {
   color: unset;
 }
 
+a.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #161616;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -42,7 +48,7 @@ header .site-logo {
   margin-right: auto;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 header a {
@@ -161,6 +167,7 @@ footer {
 /*** ABOUT PAGE ***/
 .about-hero-image {
   max-width: 100%;
+  border-radius: 5px;
 }
 
 .about-page-content {
@@ -495,6 +502,7 @@ i[class*="van-type-"] {
   flex-direction: column;
   align-items: center;
   padding-inline: 27px;
+  min-height: 450px;
 }
 
 .login-form {
