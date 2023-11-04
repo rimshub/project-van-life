@@ -12,7 +12,7 @@ It's SPA (Single Page Application), all the content is rendered on the client si
 - Outlet, useContextOutlet
 - Search Params / Query parameters
 - useLocation (Its a hook that returns the location object that represents the current URL. You can think about it like a useState that returns a new location whenever the URL changes.)
-- Protected Routes - FDCP 
+- Protected Routes - FDCP
 - CSS
 - React Icons
 - MirageJS
@@ -22,13 +22,20 @@ It's SPA (Single Page Application), all the content is rendered on the client si
 
 - Responsive design
 - Active nav link styling
-- Filter by van type 
+- Filter by van type
 - Nested Routes (multiple level deep)
-- Protected Routes 
+- Protected Routes
 - Authentication (login) to access host pages
 - miragejs for mock API
 
 NOTE:
+
 - Host pages should be accessed after login. For the sake of simplicity use:
-    Email: 123
-    Password: 123
+  Email: 123
+  Password: 123
+
+## Future Improvements
+
+- Add more filters
+- Add more vans
+- Make "rent this van" button functional (add payment method)
