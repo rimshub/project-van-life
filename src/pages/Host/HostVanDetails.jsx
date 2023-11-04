@@ -1,5 +1,6 @@
 import React from "react"
-import { useParams, Link } from "react-router-dom"
+import { useParams, Link, Outlet } from "react-router-dom"
+import LayoutVans from "../../components/LayoutVans"
 
 export default function HostVanDetail() {
     const { id } = useParams()
@@ -36,6 +37,8 @@ export default function HostVanDetail() {
                         <h4>${currentVan.price}/day</h4>
                     </div>
                 </div>
+                <LayoutVans /> {/* For Host:van sub navigation */}
+                <Outlet context={{ currentVan }} />
             </div>
         </section>
     )

@@ -7,6 +7,8 @@ A simple app to help you find perfect van for your perfect road tip. See live ve
 - React
 - React Router
 - Nested Routing, Shared Layout, Relative Paths
+- Outlet, useContextOutlet
+- Search Params / Query parameters
 - CSS
 - React Icons
 - MirageJS
