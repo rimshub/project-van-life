@@ -23,5 +23,10 @@ It's SPA (Single Page Application), all the content is rendered on the client si
 - Responsive design
 - Active nav link styling
 - Filter by van type 
+- Nested Routes (multiple level deep)
+- Protected Routes 
+- Authentication (login) to access host pages
+- miragejs for mock API
+
 NOTE:
-- 
+- Host pages should be accessed after login but for the sake of this project, I have made it public.
