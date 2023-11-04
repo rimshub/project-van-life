@@ -1,6 +1,6 @@
 ## Van Life App
 
-A simple app to help you find perfect van for your perfect road tip. See live version [here](https://van-life-app.vercel.app).
+A simple app to help you find perfect van for your perfect road tip. See live version [here](https://project-van-life.vercel.app/).
 
 ## Built with
 
