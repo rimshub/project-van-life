@@ -216,9 +216,9 @@ footer a {
 }
 
 /*** VAN PAGES ***/
-.van-list-container {
+/* .van-list-container {
   padding-inline: 23px;
-}
+} */
 
 .van-list-filter-buttons {
   display: flex;
